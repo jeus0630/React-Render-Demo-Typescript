@@ -13,7 +13,7 @@ const GrandParent: React.FunctionComponent<IGrandParentProps> = (props) => {
         <div> 
             <button onClick={() => {setNewCount(prev => prev + 1)}}>GrandParent Count - {newCount}</button>
             <ParentOne>
-                <ChildOne></ChildOne>
+                <ChildOne></ChildOne>  
             </ParentOne>
         </div>
     );
