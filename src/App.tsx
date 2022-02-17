@@ -1,13 +1,12 @@
 import React from 'react';
 import './App.css';
-import ObjectUseStaet from "./components/Immutable State/ObjectUseStaet";
-import ArrayUseState from "./components/Immutable State/ArrayUseState";
+import Parent from "./components/Parent Child/Parent";
 
 function App() {
 
     return (
         <div className="App">
-            <ArrayUseState></ArrayUseState>
+            <Parent></Parent>
         </div>
     );
 }
