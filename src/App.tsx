@@ -1,12 +1,13 @@
 import React from 'react';
 import './App.css';
-import UseReducer from "./components/UseReducer/UseReducer";
+import ObjectUseStaet from "./components/Immutable State/ObjectUseStaet";
+import ArrayUseState from "./components/Immutable State/ArrayUseState";
 
 function App() {
 
     return (
         <div className="App">
-            <UseReducer></UseReducer>
+            <ArrayUseState></ArrayUseState>
         </div>
     );
 }
