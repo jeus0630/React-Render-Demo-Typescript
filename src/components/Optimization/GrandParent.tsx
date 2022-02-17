@@ -16,7 +16,7 @@ const GrandParent: React.FunctionComponent<IGrandParentProps> = (props) => {
                 <ChildOne></ChildOne>  
             </ParentOne>
         </div>
-    );    
+    );       
 };
 
 export default GrandParent;
