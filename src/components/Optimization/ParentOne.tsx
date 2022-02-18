@@ -12,7 +12,7 @@ const ParentOne: FunctionComponent<Props> = ({children}) => {
   console.log('ParentOne Render');
   return (
       <div>
-        <button onClick={() => setCount(prev => prev + 1)}>Count - {count}</button>
+        <button onClick={() => setCount(prev => prev + 1)}> Count - {count} </button>
           {children}
       </div>
   );
