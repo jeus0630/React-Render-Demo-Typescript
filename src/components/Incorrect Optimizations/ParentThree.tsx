@@ -1,4 +1,5 @@
 import React, { FunctionComponent, useState } from 'react';
+import ChildFour from './ChildFour';
 import ChildThree from "./ChildThree";
 
 
@@ -16,9 +17,10 @@ const ParentThree: FunctionComponent<Props> = () => {
         <div>
             <button onClick={() => setCount(prev => prev + 1)}>Count - {count}</button>
             <button onClick={() => setName('codevolution')}>Change Name</button>
-            <ChildThree name={name}>
+            <ChildFour name={name}></ChildFour>
+            {/* <ChildThree name={name}>
                 <strong>Hello</strong>
-            </ChildThree>
+            </ChildThree> */}
         </div>
     );
 };

@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import ParentThree from "./components/Incorrect Optimizations/ParentThree";
+import ParentThree from './components/Incorrect Optimizations/ParentThree';
 
 function App() {
 
