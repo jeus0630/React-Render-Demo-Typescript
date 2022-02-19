@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
-import ParentTwo from './components/Optimization/ParentTwo';
+import ParentThree from "./components/Incorrect Optimizations/ParentThree";
 
 function App() {
 
     return (
         <div className="App">
-            <ParentTwo></ParentTwo>
+            <ParentThree></ParentThree>
         </div>
     );
 }
