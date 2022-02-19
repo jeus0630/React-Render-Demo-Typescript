@@ -20,7 +20,7 @@ const ParentThree: FunctionComponent<Props> = () => {
             <ChildFour name={name}></ChildFour>
             {/* <ChildThree name={name}>
                 <strong>Hello</strong>
-            </ChildThree> */}
+            </ChildThree> */} 
         </div>
     );
 };
