@@ -13,14 +13,14 @@ const ParentThree: FunctionComponent<Props> = () => {
     const [count, setCount] = useState(0);
     const [name, setName] = useState('Vishwas');
     console.log('ParentTwo Render');
-    return (
+    return (  
         <div>
             <button onClick={() => setCount(prev => prev + 1)}>Count - {count}</button>
             <button onClick={() => setName('codevolution')}>Change Name</button>
             <ChildFour name={name}></ChildFour>
             {/* <ChildThree name={name}>
                 <strong>Hello</strong>
-            </ChildThree> */} 
+            </ChildThree> */}      
         </div>
     );
 };
